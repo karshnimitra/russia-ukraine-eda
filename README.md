@@ -1,3 +1,2 @@
-# Ukraine-Russo_War_EDA
-A simple EDA using Ukraine - Russo War data from kaggle.
-A project by Matt and Karshni
+# russia-ukraine-eda
+An exploratory data analysis project on the Russia Ukraine war data to identify the cost of offensive warfare and a shift in Russian battle style. A project by Matthew Moellering and Karshni Mitra.
