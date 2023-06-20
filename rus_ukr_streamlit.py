@@ -540,8 +540,8 @@ map = alt.layer(base,circle_points,line_total).resolve_scale(color='independent'
 
 # Remove map edge borders
 map.configure_view(stroke=None)
-
-st.altair_chart(map.configure_legend(labelLimit=0))
+map.configure_legend(labelLimit=0)
+st.altair_chart(map)
 
 st.markdown("**Figure 6:** The map above shows all the battle points and lines, plotted by month. The points are sub-categorized into Armed Clashes, Government (Ukraine) regains territory and Non - state (Russia) actor overtakes territory. All these events are connected monthwise by a line. This displays the line of battle by month.")
 
